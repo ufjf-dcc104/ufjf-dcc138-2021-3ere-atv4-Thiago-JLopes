@@ -30,6 +30,7 @@ input.configurarTeclado({
     ArrowRight: "MOVE_DIREITA",
     ArrowUp: "MOVE_CIMA",
     ArrowDown: "MOVE_BAIXO",
+    " ": "PROXIMA CENA",
 });
 
 const game = new Game(canvas, assets, input);
